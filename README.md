@@ -120,5 +120,26 @@ Identifying color styles and typography early in the design process helps to:
 - Ensure smooth communication and workflow within the team  
 
 
+## 🧩 UI Component Patterns
+
+To ensure consistency and reusability across the project, we will use a **component-based architecture**.  
+Below are the planned UI components:
+
+### 🔝 Navbar
+- Contains the **logo**, **search bar**, and **user navigation**  
+- Includes a **responsive menu** for mobile devices  
+- Provides quick access to major sections of the site  
+
+### 🏡 Property Card
+- Displays **property image** and **basic details** (price, location, rating)  
+- Includes a **favorite button** for saving properties  
+- Designed with a responsive layout for grid and mobile views  
+
+### 📄 Footer
+- Displays **site links** (About, Contact, Help)  
+- Includes **company information** and **social media links**  
+- Shows **copyright information**  
+
+
 ---
 🚀 *This project is part of the ProDev Front-End Development course.*
