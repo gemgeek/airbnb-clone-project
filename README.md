@@ -251,5 +251,27 @@ Allows users to search for properties by location, price, dates, and other filte
 Provides administrators with tools to monitor activity, manage users, and ensure the platform is running smoothly.
 
 
+## API Security
+
+To protect the integrity of the AirBnB Clone backend, several key security measures will be implemented:
+
+- **Authentication**: Verifies the identity of users before granting access. This ensures that only legitimate users can log in and interact with the system, protecting user accounts and personal data.
+
+- **Authorization**: Defines what authenticated users are allowed to do. For example, property owners can manage their listings, while guests can make bookings. This prevents unauthorized actions within the system.
+
+- **Rate Limiting**: Controls the number of requests a user or client can make in a given timeframe. This helps protect against abuse, such as denial-of-service (DoS) attacks or brute-force login attempts.
+
+- **Data Encryption**: All sensitive data (like passwords and payment information) will be encrypted both in transit (via HTTPS/TLS) and at rest. This secures critical information from being exposed if intercepted.
+
+- **Input Validation**: Ensures that any data received by the API is clean and expected, helping defend against SQL injection, cross-site scripting (XSS), and other malicious attacks.
+
+### Why Security is Crucial
+
+- Protects sensitive **user data** (personal information, login credentials).  
+- Secures **payments and transactions** against fraud.  
+- Maintains the **trustworthiness** of the platform by preventing unauthorized access or malicious activity.  
+- Ensures compliance with data protection standards and regulations.
+
+
 ---
 🚀 *This project is part of the ProDev Full-Stack Development course.*
