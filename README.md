@@ -140,6 +140,27 @@ Below are the planned UI components:
 - Includes **company information** and **social media links**  
 - Shows **copyright information**  
 
+---
+
+
+# ⚙️ ProDev Back-end
+
+This section documents the planning and development of the back-end part of the AirBnB Clone project.
+
+# 👥 Team Roles
+
+In this project, several team roles ensure smooth collaboration and development:
+
+- **Backend Developer**: Builds the application logic, APIs, and connects the frontend with the database.  
+- **Database Administrator (DBA)**: Designs, manages, and optimizes the database to ensure data integrity and performance.  
+- **Frontend Developer**: Implements the user interface and integrates with the backend APIs.  
+- **Designer (UI/UX)**: Creates the layouts, wireframes, and ensures the application is user-friendly.  
+- **QA/Testers**: Write and execute tests, find bugs, and ensure quality before release.  
+- **DevOps Engineer**: Manages deployments, CI/CD pipelines, and infrastructure.  
+- **Project Manager**: Organizes the team, tracks progress, and ensures deadlines are met.  
+- **Scrum Master**: Facilitates Agile practices, removes blockers, and supports the team’s workflow.  
+- **Product Owner**: Defines project goals, prioritizes features, and represents user needs.  
+
 
 ---
-🚀 *This project is part of the ProDev Front-End Development course.*
+🚀 *This project is part of the ProDev Full-Stack Development course.*
