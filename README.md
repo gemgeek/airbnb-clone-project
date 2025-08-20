@@ -162,5 +162,18 @@ In this project, several team roles ensure smooth collaboration and development:
 - **Product Owner**: Defines project goals, prioritizes features, and represents user needs.  
 
 
+# 🛠 Technology Stack
+
+Our AirBnB Clone project leverages a set of powerful technologies that work together to deliver a robust and scalable application:
+
+- **Django**: A high-level Python web framework used for building the backend and RESTful APIs. It handles business logic, routing, and integrates with the database.  
+- **PostgreSQL**: A reliable and powerful relational database system that stores application data such as users, bookings, and properties.  
+- **GraphQL**: An API query language that allows flexible data fetching, enabling the frontend to request exactly what it needs.  
+- **HTML/CSS/JavaScript**: Core web technologies for building and styling the user interface.  
+- **React (optional)**: A modern JavaScript library that can be used for building dynamic frontend components.  
+- **Docker**: Containerization tool to ensure consistent environments and simplify deployment.  
+- **Git & GitHub**: Version control and collaboration platform for managing source code.  
+
+
 ---
 🚀 *This project is part of the ProDev Full-Stack Development course.*
