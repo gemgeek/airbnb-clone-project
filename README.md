@@ -175,5 +175,55 @@ Our AirBnB Clone project leverages a set of powerful technologies that work toge
 - **Git & GitHub**: Version control and collaboration platform for managing source code.  
 
 
+# 🗄 Database Design
+
+The AirBnB Clone project requires several core entities to manage users, properties, and reservations. Below is an overview of the key entities and their relationships:
+
+### Entities and Fields
+- **Users**
+  - `id` (Primary Key)
+  - `name`
+  - `email`
+  - `password`
+  - `role` (guest, host, admin)
+
+- **Properties**
+  - `id` (Primary Key)
+  - `title`
+  - `description`
+  - `location`
+  - `price_per_night`
+  - `host_id` (Foreign Key → Users)
+
+- **Bookings**
+  - `id` (Primary Key)
+  - `user_id` (Foreign Key → Users)
+  - `property_id` (Foreign Key → Properties)
+  - `check_in_date`
+  - `check_out_date`
+  - `status` (pending, confirmed, canceled)
+
+- **Reviews**
+  - `id` (Primary Key)
+  - `user_id` (Foreign Key → Users)
+  - `property_id` (Foreign Key → Properties)
+  - `rating`
+  - `comment`
+
+- **Payments**
+  - `id` (Primary Key)
+  - `booking_id` (Foreign Key → Bookings)
+  - `amount`
+  - `payment_method`
+  - `status` (successful, failed, pending)
+
+### Relationships
+- A **User** can list multiple **Properties** (1-to-many).  
+- A **User** can make multiple **Bookings** (1-to-many).  
+- A **Property** can have many **Bookings** (1-to-many).  
+- A **Property** can have many **Reviews**, each left by a different User (1-to-many).  
+- Each **Booking** is linked to exactly one **Payment** (1-to-1).  
+
+
 ---
 🚀 *This project is part of the ProDev Full-Stack Development course.*
