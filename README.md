@@ -273,5 +273,56 @@ To protect the integrity of the AirBnB Clone backend, several key security measu
 - Ensures compliance with data protection standards and regulations.
 
 
+## CI/CD Pipeline
+
+A **CI/CD pipeline** (Continuous Integration and Continuous Deployment) is a set of automated processes that help developers deliver code changes more reliably and efficiently.  
+
+- **Continuous Integration (CI)**: Ensures that new code changes are automatically tested and integrated into the project. This reduces bugs and helps catch errors early in development.  
+- **Continuous Deployment (CD)**: Automates the release process so that tested changes can be quickly and safely deployed to production.  
+
+### Why CI/CD is Important
+- Speeds up development by automating testing and deployment.  
+- Reduces human error by standardizing the release process.  
+- Ensures high-quality code is always ready to be deployed.  
+- Provides faster feedback to developers when something breaks.  
+
+### Tools We Could Use
+- **GitHub Actions**: Automates workflows for building, testing, and deploying the project directly from GitHub.  
+- **Docker**: Ensures consistent environments across development, testing, and production.  
+- **Jenkins**: A widely used automation server for managing CI/CD pipelines.  
+- **Kubernetes** (optional, for scaling): Helps manage and deploy applications in containers at scale.  
+
+### Example GitHub Actions Workflow
+
+Here’s a simple CI workflow (`.github/workflows/ci.yml`) that runs whenever code is pushed to the repo:
+
+```yaml
+name: CI Pipeline
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run tests
+        run: |
+          pytest
+
+          
 ---
 🚀 *This project is part of the ProDev Full-Stack Development course.*
