@@ -225,5 +225,31 @@ The AirBnB Clone project requires several core entities to manage users, propert
 - Each **Booking** is linked to exactly one **Payment** (1-to-1).  
 
 
+# ✨ Feature Breakdown
+
+The AirBnB Clone project will include several core features that replicate the functionality of the Airbnb platform. Each feature contributes to delivering a complete user experience.
+
+### 1. User Management
+Allows users to create accounts, log in, and manage their profiles. This feature ensures secure authentication and supports both guests (renters) and hosts (property owners).
+
+### 2. Property Management
+Hosts can add, update, and remove property listings. This feature provides detailed property information such as descriptions, amenities, pricing, and availability.
+
+### 3. Booking System
+Enables guests to search for properties, view availability, and make reservations. This feature manages check-in and check-out dates, booking status, and prevents scheduling conflicts.
+
+### 4. Review System
+Guests can leave reviews and ratings for properties they’ve stayed at. This builds trust in the platform and helps future guests make informed decisions.
+
+### 5. Payment Integration
+Supports secure payment processing for bookings. This feature ensures that hosts are paid and guests are charged accurately, with support for multiple payment methods.
+
+### 6. Search and Filtering
+Allows users to search for properties by location, price, dates, and other filters. This feature improves usability by helping guests quickly find the most relevant listings.
+
+### 7. Admin Dashboard (optional extension)
+Provides administrators with tools to monitor activity, manage users, and ensure the platform is running smoothly.
+
+
 ---
 🚀 *This project is part of the ProDev Full-Stack Development course.*
