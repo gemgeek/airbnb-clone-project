@@ -51,5 +51,29 @@ The goal is to build a functional web application that allows users to:
 ### 💡 Importance of User-Friendly Design
 A well-designed booking system reduces friction in the user journey, increases conversion rates, and improves customer satisfaction. Clear navigation, intuitive interfaces, and responsive design are critical for success.
 
+
+### 🎨 Design Properties (from Figma)
+
+#### 🎨 Color Styles
+- **Primary Color:** Green (#008489)  
+- **Secondary Color:** Yellow  
+- **Secondary Text / Black:** #000000  
+- **Shimmer / Gray:** Gray  
+
+#### ✍️ Typography
+- **Font Family:** Source Sans Pro  
+- **Font Weights:** Regular (400), Medium (500), Bold (700)  
+- **Font Sizes:**  
+  - Body text: 14px – 16px  
+  - Headings: 24px – 32px  
+
+### 💡 Why Identifying Design Properties Matters
+Identifying color styles and typography early in the design process helps to:  
+- Maintain **visual consistency** across the application  
+- Ensure the design matches the **brand identity**  
+- Make collaboration between designers and developers smoother  
+- Speed up development by using a **design system** (reusable styles and components)  
+
+
 ---
 🚀 *This project is part of the ProDev Front-End Development course.*
