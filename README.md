@@ -26,5 +26,30 @@ The goal is to build a functional web application that allows users to:
 - `README.md` – Project overview and documentation  
 - Future folders: `/frontend`, `/backend`, `/design`  
 
+## 🎨 UI/UX Design Planning
+
+### ✅ Design Goals
+- Create an **intuitive booking flow** that is easy for users to follow  
+- Maintain **visual consistency** across all pages  
+- Ensure **fast loading times** for a smooth user experience  
+- Prioritize **mobile responsiveness** (mobile-first design)  
+
+### ⭐ Key Features
+- **Property search and filtering**  
+- **Detailed property viewing** with images and descriptions  
+- **Secure checkout process** for bookings  
+- **User authentication** (sign up / login)  
+
+### 📄 Primary Pages
+
+| Page | Description |
+|------|-------------|
+| **Property Listing View** | Displays available properties in a grid layout with filters (price, location, rating). |
+| **Listing Detailed View** | Shows complete property details with multiple images, amenities, location map, and booking form. |
+| **Simple Checkout View** | Streamlined page for secure payment and booking confirmation. |
+
+### 💡 Importance of User-Friendly Design
+A well-designed booking system reduces friction in the user journey, increases conversion rates, and improves customer satisfaction. Clear navigation, intuitive interfaces, and responsive design are critical for success.
+
 ---
-🚀 *This project is part of the ProDev Full-Stack Development course.*
+🚀 *This project is part of the ProDev Front-End Development course.*
