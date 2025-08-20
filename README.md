@@ -75,5 +75,50 @@ Identifying color styles and typography early in the design process helps to:
 - Speed up development by using a **design system** (reusable styles and components)  
 
 
+## 👥 Project Roles and Responsibilities
+
+### 📌 Roles and Their Contributions
+
+#### 🗂️ Project Manager
+- Oversees the project timeline and deliverables  
+- Coordinates tasks across the team  
+- Ensures milestones are met on schedule  
+
+#### 💻 Frontend Developers
+- Build and implement the user interface using React, HTML, CSS, and JavaScript  
+- Ensure the design is responsive and accessible  
+- Integrate frontend with backend APIs  
+
+#### ⚙️ Backend Developers
+- Build and maintain the application’s server, APIs, and database  
+- Implement business logic and data handling  
+- Ensure performance, security, and scalability  
+
+#### 🎨 Designers
+- Create mockups and maintain the design system (colors, typography, components)  
+- Ensure a user-friendly experience  
+- Collaborate closely with developers to align design and implementation  
+
+#### 🧪 QA/Testers
+- Write test cases (unit, integration, end-to-end)  
+- Test application features for bugs or issues  
+- Report issues and verify fixes before deployment  
+
+#### 🔧 DevOps Engineers
+- Set up and manage deployment environments  
+- Create CI/CD pipelines for continuous delivery  
+- Monitor servers and application uptime  
+
+#### 📋 Product Owner
+- Define project requirements and user stories  
+- Prioritize features based on user needs and business goals  
+- Act as the link between the team and stakeholders  
+
+#### 🔄 Scrum Master
+- Facilitate agile processes (daily standups, sprint planning, retrospectives)  
+- Remove blockers to keep the team productive  
+- Ensure smooth communication and workflow within the team  
+
+
 ---
 🚀 *This project is part of the ProDev Front-End Development course.*
